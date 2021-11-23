@@ -9,6 +9,7 @@ a{
     text-decoration: none;
 }
 
+/* || CATEGORIES SECTION || */
 .dropbtn{
     background-image:linear-gradient(90deg, #cb2d3e, #ef473a);
     color: white;
@@ -47,3 +48,5 @@ a{
 .dropdownContent a:hover {
     background-color:#aa2b28;
 }
+/* || END  || */
+
