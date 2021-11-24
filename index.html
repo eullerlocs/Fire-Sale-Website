@@ -9,23 +9,26 @@
 </head>
 <body>
     <header>
-        <div>
-            <img src="Images/logo.png" alt="logo">
+        <div class="headerpt1">
+            <a href="index.html"><img src="Images/logo.png" alt="logo"></a>
         </div>
 
-        <!-- CATEGORIES -->
-        <div class="dropdown">
-            <button class="dropbtn">Categories</button>
-            <div class="dropdownContent">
-                <a href="racing.html">Racing</a>
-                <a href="fps.html">FPS</a>
-                <a href="platformer.html">Platformer</a>
+        <div class="headerpt2">
+            <div class="dropdown">
+                <button class="dropbtn">Categories</button>
+                <div class="dropdownContent">
+                    <a href="racing.html">Racing</a>
+                    <a href="fps.html">FPS</a>
+                    <a href="platformer.html">Platformer</a>
+                </div>
+            </div>
+    
+            <div class="aboutUs">
+                <a href="aboutUs.html"><button class="aboutbtn">About Us</button></a> 
             </div>
         </div>
-
-        <div class="aboutUs">
-            <button class="aboutbtn">About Us</button>
-        </div>
+        <!-- CATEGORIES -->
+        
     </header>
 
     <body>
@@ -34,20 +37,44 @@
             <div><h2>Weekly discounts on your favourite games!</h2></div>
         </section>
 
-        <section class="highlights">
+        <section class="container">
             <div><h2>Highlights</h3></div>
-
-            <div class="item">
-                <a href="racing.html">
-                    <div><img src="Images/Forza.jpg" alt="Game image"></div>
-                    <div>
-                        <h3>Forza Horizon 5</h3>
-                        <p>$100</p>
-                        <button>$50</button>
-                    </div>
-                </a>
-                
-            </div>
+            
+            <section class="items">
+                <div class="item">
+                    <a href="racing.html">
+                        <div><img src="Images/Forza.jpg" alt="Game image"></div>
+                        <div class="itemInfo">
+                            <h3>Forza Horizon 5</h3>
+                            <p>$100</p>
+                            <button>$50</button>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="item">
+                    <a href="fps.html">
+                        <div><img src="Images/COD.jpg" alt="Game image"></div>
+                        <div class="itemInfo">
+                            <h3>Call of duty Vanguard</h3>
+                            <p>$100</p>
+                            <button>$50</button>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="item">
+                    <a href="platformer.html">
+                        <div><img src="Images/it2.png" alt="Game image"></div>
+                        <div class="itemInfo">
+                            <h3>Forza Horizon 5</h3>
+                            <p>$100</p>
+                            <button>$50</button>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            
         </section>
     </body>
 </body>
