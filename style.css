@@ -44,75 +44,6 @@ header img{
 
 
 
-/* || BODY SECTION || */
-
-body{
-    background-color: #28303F;
-}
-
-body, html{
-    width: 100%;
-    height: 100%;
-}
-.intro{
-   text-align: center;
-   padding: 10px;
-}
-.intro img{
-    max-width: 150px;
-    max-height: 150px;
-}
-.intro h2{
-    padding: 10px;
-}
-
-
-.container{
-   /*  background-color: #1B2226; */
-    height: 100%;
-    width: 100%;
-}
-
-.container h2{
-    padding: 10px;
-    background-color: #101416;
-}
-
-
-/* || ITEMS SECTION || */
-.item img{
-    max-width: 300px;
-    max-height: 250px;
-    min-height: 200px;
-    margin: 0;
-}
-
-.items{
-    background-color: #1B2226;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 0px;
-    
-}
-
-.item{
-   
-    margin: 10px 40px;
-    background-image:linear-gradient(90deg, #cb2d3e, #ef473a);
-}
-
-.itemInfo{
-    background-image:linear-gradient(90deg, #cb2d3e, #ef473a);
-    color: white;
-    text-align: center;
-    
-}
-.itemPricing{
-    display:inline-block;
-}
-
-
 /* || CATEGORIES SECTION || */
 .dropbtn{
     background-image:linear-gradient(90deg, #cb2d3e, #ef473a);
@@ -152,5 +83,109 @@ body, html{
 .dropdownContent a:hover {
     background-color:#aa2b28;
 }
+
+
+
+
+/* || BODY SECTION || */
+
+body{
+    background-color: #28303F;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+.intro{
+   text-align: center;
+   padding: 10px;
+}
+.intro img{
+    max-width: 150px;
+    max-height: 150px;
+}
+.intro h2{
+    padding: 10px;
+}
+
+
+.container{
+   /*  background-color: #1B2226; */
+    height: 100%;
+    width: 100%;
+}
+
+.container h2{
+    padding: 10px;
+    background-color: #101416;
+}
+
+
+/* || ITEMS SECTION || */
+
+.items{
+    background-color: #1B2226;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px;
+    
+}
+
+.item{
+   
+    margin: 10px 40px;
+    background-image:linear-gradient(90deg, #cb2d3e, #ef473a);
+}
+
+.item img{
+    max-width: 300px;
+    max-height: 250px;
+    min-height: 200px;
+    margin: 0px;
+}
+
+
+.itemInfo{
+    background-image:linear-gradient(90deg, #cb2d3e, #ef473a);
+    color: white;
+    text-align: center;
+    
+}
+
+.item h3{
+    background-color:  #a12632;
+    margin: 0px;
+}
+
+.itemPricing{
+    display:inline-block;
+}
+
+.item p{
+    text-decoration: line-through;
+    margin: 5px;
+    font-size: 18px;
+    color: #afafaf;
+}
+
+.item button{
+    background-image: linear-gradient(90deg, #76b852,#8DC26F);
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40%;
+}
+.item button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(90deg, #57863d,#6b9254);
+    
+    
+}
+
+
+
 /* || END  || */
 
