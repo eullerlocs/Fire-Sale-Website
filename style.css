@@ -91,6 +91,7 @@ header img{
 
 body{
     background-color: #28303F;
+    
 }
 
 body, html{
@@ -196,6 +197,117 @@ body, html{
 /* ---- DESCRIPTION PAGE ---- */
 
 /* || BODY SECTION || */
+
+.discription{
+    /* display: block; */
+    text-align: center;
+    margin: 0px;
+    padding:0px;
+}
+
+.discriptionpt1{
+    display: flex;
+    justify-content: center;
+}
+.discriptionpt1 img{
+    max-height: 800px;
+    max-width: 900px;
+}
+
+.reviews{
+    background-color: #1B2226;
+    max-width: 300px;
+}
+
+/* |STARS| */
+
+.stars{
+    border-top: 1px solid rgb(182, 182, 182,30%);
+    border-bottom: 1px solid rgb(182, 182, 182,30%);
+    text-align: left;
+}
+.stars img{
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.stars p{
+    padding: 10px;
+    color: rgb(182, 182, 182);
+}
+
+
+/* |COMMENTS| */
+.comments{
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(182, 182, 182,30%);
+}
+
+.comments p{
+    text-align: left;
+    padding: 10px;
+    color: rgb(182, 182, 182);
+}
+
+
+/* |PAGAMENTO| */
+
+.pagamento{
+    /* border-bottom: 1px solid rgb(182, 182, 182,30%); */
+    padding: 10px;
+}
+
+.pagamento legend{
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-size: 22px;
+}
+
+.pagamento label{
+    font-size: 20px;
+}
+.pagamento p{
+    padding:5px ;
+    text-align:left;
+    font-size: 20px;
+    text-decoration: line-through;
+    color: rgb(209, 209, 209);
+}
+.pagamento h2{
+    text-align:left;
+    font-size: 30px;
+    margin: 10px;
+    margin-bottom: 30px;
+    color: #8DC26F;
+}
+
+.comprar{
+    background-image: linear-gradient(90deg, #76b852,#8DC26F);
+    border: none;
+    padding: 10px;
+    margin-top: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+}
+.comprar:hover{
+    cursor: pointer;
+    background-image: linear-gradient(90deg, #57863d,#6b9254);
+     
+}
+input[type="radio"]{
+    text-align: center;
+    margin: 0 30px 0 10px;
+  }
+
+
+
+
+  /* |DISCRIPTION PT 2| */
+
+.discriptionpt2{
+    background-color: #1b1f25;
+}
 
 /* || END  || */
 

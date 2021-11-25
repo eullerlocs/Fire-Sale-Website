@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,47 +8,82 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-    <header>
-        <div class="headerpt1">
-            <a href="index.html"><img src="Images/logo.png" alt="logo"></a>
-        </div>
+<header>
+    <div class="headerpt1">
+        <a href="index.html"><img src="Images/logo.png" alt="logo"></a>
+    </div>
 
-        <div class="headerpt2">
+    <div class="headerpt2">
 
-            <!-- CATEGORIES -->
-            <div class="dropdown">
-                <button class="dropbtn">Categories</button>
-                <div class="dropdownContent">
-                    <a href="racing.html">Racing</a>
-                    <a href="fps.html">FPS</a>
-                    <a href="platformer.html">Platformer</a>
-                </div>
-            </div>
-    
-            <div class="aboutUs">
-                <a href="aboutUs.html"><button class="aboutbtn">About Us</button></a> 
+        <!-- CATEGORIES -->
+        <div class="dropdown">
+            <button class="dropbtn">Categories</button>
+            <div class="dropdownContent">
+                <a href="racing.html">Racing</a>
+                <a href="fps.html">FPS</a>
+                <a href="platformer.html">Platformer</a>
             </div>
         </div>
-        
-        
-    </header>
 
-    <body>
+        <div class="aboutUs">
+            <a href="aboutUs.html"><button class="aboutbtn">About Us</button></a>
+        </div>
+    </div>
+
+
+</header>
+
+<body>
+    <section class="discription">
         <section class="discriptionpt1">
             <div><img src="Images/imagePlaceholder.jpg" alt="imagem produto"></div>
 
             <div class="reviews">
 
                 <div class="stars">
-                    <p>Estrela</p>
+                    <img src="Images/5star.png" alt="">
+                    <p>100 reviews</p>
                 </div>
 
                 <div class="comments">
-
+                    <h2>"Jogo maravilhoso!"</h2>
+                    <p>40+ comments</p>
                 </div>
 
-                <div class="pagamento"></div>
+
+                <div class="pagamento">
+                    <p>$100</p>
+                    <h2 >$50</h2>
+                    <form action="">
+                        <label for="parcelas">Parcelas</label>
+                        <select name="parcelas" id="parcelas" style="color: black;">
+                            <option value="1" style="color: black;">1x $100</option>
+                            <option value="2" style="color: black;">2x $50</option>
+                            <option value="3" style="color: black;">3x $35</option>
+                            <option value="4" style="color: black;">4x $30</option>
+                        </select>
+
+                        <legend>Forma de pagamento</legend>
+                        <label for="boleto">Boleto</label>
+                        <input type="radio" id="boleto" name="formPag">
+
+                        <label for="cartao">Cartão</label>
+                        <input type="radio" id="cartao" name="formPag">
+
+                    </form>
+
+                    <button class="comprar">Comprar</button>
+                </div>
             </div>
         </section>
-    </body>
+
+        <section class="discriptionpt2">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum facere at, omnis nostrum excepturi voluptate unde id ratione quisquam quidem? Vel quae distinctio nesciunt. Culpa aliquid tenetur sit quisquam in, libero veritatis reiciendis impedit ipsa odit exercitationem odio at repellendus ad voluptatibus excepturi debitis et. Incidunt ducimus nisi maiores illo debitis, quidem ex vitae sapiente, voluptatum quae adipisci itaque. Et similique sapiente inventore voluptate, harum adipisci voluptas placeat vero! Vero libero dicta explicabo, ipsa quidem quas recusandae minima ducimus facilis veritatis mollitia tenetur consectetur alias eaque repellat dolorem ad cum odit est error provident praesentium exercitationem. Veniam optio ducimus temporibus?</p>
+            </div>
+
+        </section>
+    </section>
+</body>
+
 </html>
