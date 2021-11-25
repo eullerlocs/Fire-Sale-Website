@@ -1,0 +1,7 @@
+Projeto Fire Sale:
+
+Ferramentas:
+HTML 5
+CSS
+VISUAL STUDIO CODE
+CHROME INSPECTOR
