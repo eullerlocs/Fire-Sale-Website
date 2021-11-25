@@ -199,10 +199,12 @@ body, html{
 /* || BODY SECTION || */
 
 .discription{
-    /* display: block; */
+    /* display: flex; */
     text-align: center;
     margin: 0px;
     padding:0px;
+    
+    
 }
 
 .discriptionpt1{
@@ -259,15 +261,17 @@ body, html{
 
 .pagamento legend{
     padding-top: 30px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     font-size: 22px;
+    text-align: left;
 }
 
 .pagamento label{
     font-size: 20px;
+    text-align: left;
 }
 .pagamento p{
-    padding:5px ;
+    padding:5px;
     text-align:left;
     font-size: 20px;
     text-decoration: line-through;
@@ -307,6 +311,23 @@ input[type="radio"]{
 
 .discriptionpt2{
     background-color: #1b1f25;
+    max-width: 1200px;
+    width: 100%;
+    margin:auto;
+    justify-content: center;
+}
+
+.discriptionText{
+    max-width: 1200px;
+    text-align: left;
+    
+
+}
+
+.discriptionText p{
+    padding: 40px;
+    font-size: 20px;
+    
 }
 
 /* || END  || */
